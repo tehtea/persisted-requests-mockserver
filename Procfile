@@ -1,1 +1,1 @@
-web: java -jar mockserver-netty-5.13.2-shaded.jar -serverPort ${PORT:-3000}
+web: java -jar mockserver-netty-5.13.2-shaded.jar -serverPort ${PORT:-3000} -Dmockserver.corsAllowOrigin="*"
