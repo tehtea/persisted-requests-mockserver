@@ -1,0 +1,17 @@
+[
+    {
+        "id": "create-posts",
+        "priority": 0,
+        "httpRequest": {
+            "method": "POST",
+            "path": "/posts"
+        },
+        "httpResponse": {
+            "statusCode": 200,
+            "delay": {
+                "timeUnit": "SECONDS",
+                "value": 5
+            }
+        }
+    }
+]
